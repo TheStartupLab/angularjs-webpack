@@ -1,0 +1,28 @@
+
+$primaryColor:   rgb(6,20,47);
+$accentColor:    rgb(229,57,53);
+$bgColor:        rgb(250,250,250);
+
+body {
+   height: 100%;
+}
+
+.primary{
+    background-color:$primaryColor;
+    color:$bgColor;
+}
+.accent{
+    background-color: $accentColor;
+    color:$bgColor;
+}
+
+.toolbar{
+    padding:5px;
+    
+    & > h3{
+        margin:0
+    }
+    & > a{
+        color:$bgColor
+    }
+}
